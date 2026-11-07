@@ -1,0 +1,32 @@
+# Fast and Async Web Framework
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.1
+
+# Database & ORM
+SQLAlchemy>=2.0.30
+PyMySQL>=1.1.1
+cryptography>=42.0.7
+
+# Data Validation & Settings Management
+pydantic>=2.7.1
+pydantic-settings>=2.2.1
+python-dotenv>=1.0.1
+
+# Authentication & Security
+passlib[bcrypt]>=1.7.4
+python-jose[cryptography]>=3.3.0
+python-multipart>=0.0.9
+
+# Real-time WebSockets
+websockets>=12.0
+
+# QR Code Generation & Image Processing
+qrcode[pil]>=7.4.2
+Pillow>=10.3.0
+
+# Data Science & AI Heuristics
+numpy>=1.26.4
+
+# HTTP Client for Testing & Integrations
+httpx>=0.27.0
+
